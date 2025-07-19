@@ -1,4 +1,5 @@
-function olaMundo() {
-  return <h1>Olá Mundo</h1>;
+function helloWorld() {
+  return <h1>Olá mundo!</h1>;
 }
-export default olaMundo;
+
+export default helloWorld;
