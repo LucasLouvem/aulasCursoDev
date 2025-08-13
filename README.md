@@ -22,7 +22,7 @@ Aqui estão os projetos que construí durante o curso:
 1. Clone_tabNews
    - Site modelo utilizado para o `curso.dev`
    - Tecnologias: JavaScript, Node.js, etc.
-   - [Site Projeto do Curso]([https://clonetabnew-2r5stdnwr-lucaslouvems-projects.vercel.app/])
+   - [Site Projeto do Curso](https://clonetabnew-2r5stdnwr-lucaslouvems-projects.vercel.app/)
 
 2. **Nome do Projeto 2**
    - Descrição breve.
