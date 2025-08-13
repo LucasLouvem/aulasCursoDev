@@ -19,10 +19,10 @@ Aqui estão os projetos que construí durante o curso:
 
 ### 📂 Lista de Projetos
 
-1. **Nome do Projeto 1**
-   - Descrição breve.
+1. Clone_tabNews
+   - Site modelo utilizado para o `curso.dev`
    - Tecnologias: JavaScript, Node.js, etc.
-   - [Link para pasta ou deploy](#)
+   - [Link para pasta ou deploy]([(https://clonetabnew-2r5stdnwr-lucaslouvems-projects.vercel.app/)])
 
 2. **Nome do Projeto 2**
    - Descrição breve.
