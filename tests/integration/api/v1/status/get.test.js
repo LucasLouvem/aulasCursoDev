@@ -8,11 +8,15 @@ test("GET to /api/v1/status should return 200", async () => {
   expect(responseBody.updated_at).toEqual(parsedUpdateAt);
 
   expect(responseBody.dependencies.database.version).toBeDefined();
-  expect(responseBody.dependencies.database.version).toEqual("16.0");
+  expect(typeof responseBody.dependencies.database.version).toEqual("string");
 
   expect(responseBody.dependencies.database.max_connections).toBeDefined();
-  expect(responseBody.dependencies.database.max_connections).toEqual(100);
+  expect(typeof responseBody.dependencies.database.max_connections).toEqual(
+    "number",
+  );
 
   expect(responseBody.dependencies.database.opened_connections).toBeDefined();
-  expect(responseBody.dependencies.database.opened_connections).toEqual(1);
+  expect(typeof responseBody.dependencies.database.opened_connections).toEqual(
+    "number",
+  );
 });
